@@ -1,0 +1,36 @@
+body{
+  background-color: #EAF6F6;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+h1{
+  color: #66BFBF;
+}
+h3{
+  color: #66BFBF;
+}
+/*In CSS comments are written like this, now suppose we have two images and we want to do diff styling on them, so use classes,
+class selector instead of tag selector
+<img class="bacon" src="linkHere" alt="Bacon image">
+<img class="broccoli" src="linkHere" alt="Broccoli image">
+Write these two lines first in your index.html file and then the below code in styless.css for class selctor
+.bacon{
+  background-color: green;
+}
+.broccoli{
+  background-color: red;
+}
+*/
+/*********************************** ID Selector************************************/
+#heading{
+  color: blue;
+}
+/*highest preference inline css> internal css> external css
+you can use the id tag only once for any element,but on the other side same class can be used for multiple elements
+id=specific style to a particular element, any html element can have multiple classes but only one, once id is used you can't use it again in that same page*/
+/* what are psuedo classes, imp interview ques*/
